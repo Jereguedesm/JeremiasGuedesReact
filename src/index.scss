@@ -1,0 +1,34 @@
+/*abstracts*/
+@import "./scss/abstracts/variables";
+@import "./scss/abstracts/mixins";
+
+/*base*/
+@import "./scss/base/base";
+@import "./scss/base/resets";
+@import "./scss/layout/header";
+@import "./scss/layout/main";
+@import "./scss/layout/footer";
+
+:root {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+
