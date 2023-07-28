@@ -1,10 +1,9 @@
 import React from 'react'
-import Aside from "../Aside/Aside"
 
-const Main = () => {
+const aboutMe = () => {
   return (
     <>
-        <section>
+        <div className='main'>
             <div>
                 <p id="aboutMe" className="title">About me</p>
                 <p className="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error numquam nobis sed repudiandae, est voluptatum delectus minus maxime. Quod totam et consequuntur at quis soluta, delectus dolores cupiditate! Ipsam, qui.
@@ -29,10 +28,9 @@ const Main = () => {
                     Ut mollitia vitae minus saepe iure soluta adipisci, exercitationem sequi molestias commodi sint esse id animi corrupti dolores? Veritatis, ex numquam consectetur inventore quidem harum nulla expedita officiis. Ducimus, numquam.
                     Aliquam commodi inventore iste fuga necessitatibus! Placeat inventore cupiditate dolorem ducimus enim repellat quis architecto labore dicta aperiam illo porro, fuga similique aliquid minima a perferendis quam, vel cumque. Facilis!</p>
             </div>
-        </section>
-        <Aside/>
+        </div>
     </>
   )
 }
 
-export default Main
+export default AboutMe

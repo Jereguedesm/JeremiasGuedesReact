@@ -5,6 +5,9 @@
 /*base*/
 @import "./scss/base/base";
 @import "./scss/base/resets";
+@import "./scss/base/mediaQuerries";
+
+/*layout*/
 @import "./scss/layout/header";
 @import "./scss/layout/main";
 @import "./scss/layout/footer";

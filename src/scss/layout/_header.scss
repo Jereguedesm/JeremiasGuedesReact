@@ -1,6 +1,7 @@
 header{
     background-color: $beige2;
     height: 150px;
+    width: 100vw;
 
     nav{
         height: 150px;
@@ -13,12 +14,24 @@ header{
             align-items: center;
             li{
                 text-decoration: none;
-                font-size: 1.2rem;
+                font-size: 1.3rem;
                 color: #ffffff;
-                a{
+                &:hover{
+                    transform: scale(1.05);
+                }
+                .a{
                     text-decoration: none;
                     color: #ffffff;
                     font-weight: 350;
+                    padding: 3px;
+                    &:hover{
+                        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                        border-radius: 7px;
+                        
+                    }
+                }
+                .activeLink{
+                    text-decoration: underline 2px solid $beige5;
                 }
                 img{
                     height: 150px;

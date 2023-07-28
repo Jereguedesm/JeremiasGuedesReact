@@ -1,0 +1,148 @@
+/*abstracts*/
+/*base*/
+body {
+  background-color: #d5b895;
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*layout*/
+header {
+  background-color: #c19770;
+  height: 150px;
+  width: 100vw;
+}
+header nav {
+  height: 150px;
+}
+header nav ul {
+  height: 150px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header nav ul li {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+header nav ul li:hover {
+  transform: scale(1.05);
+}
+header nav ul li .a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 350;
+  padding: 3px;
+}
+header nav ul li .a:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  border-radius: 7px;
+}
+header nav ul li .activeLink {
+  text-decoration: underline 2px solid #e8dcb5;
+}
+header nav ul li img {
+  height: 150px;
+  width: 150px;
+}
+
+.main {
+  /*.progress-bar {
+      height: 5px;
+      background-color: #333;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 0;
+      z-index: 9999;
+  }*/
+}
+.main div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+}
+.main div p {
+  margin: 10px auto;
+  font-size: 1.1rem;
+  width: 80vw;
+}
+.main div .title {
+  font-size: 1.3rem;
+  margin: 10px auto;
+}
+.main div .text {
+  font-size: 1rem;
+  text-align: justify;
+  width: 70%;
+  margin: auto;
+}
+
+.skillsDisplay {
+  width: 80vw;
+  margin: auto;
+}
+.skillsDisplay h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 7px;
+}
+.skillsDisplay ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  list-style-type: none;
+}
+.skillsDisplay ul li {
+  margin: 17px;
+  padding: 3px;
+  justify-content: center;
+  text-align: center;
+}
+.skillsDisplay ul li:hover {
+  transform: scale(1.05);
+}
+.skillsDisplay ul li button {
+  text-decoration: none;
+  border: none;
+  background-color: #d5b895;
+  font-size: 1.3rem;
+}
+
+footer {
+  background-color: #6b6c65;
+}
+
+:root {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
