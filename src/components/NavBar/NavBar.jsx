@@ -31,12 +31,12 @@ const NavBar = () => {
                 My projects
             </NavLink>
             </li>
-                <li className='a'>
-                    <NavLink className='a'>Language</NavLink>
-                </li>
-                <li className='a'>
-                    <NavLink className='a'>Contact</NavLink>
-                </li>
+            <li className='a'>
+                <NavLink className='a'>Contact</NavLink>
+            </li>
+            <li className='a'>
+                <NavLink className='a'>Language</NavLink>
+            </li>
             </ul>
         </nav>
     </div>

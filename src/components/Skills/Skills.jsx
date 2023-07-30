@@ -1,5 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import Swal from 'sweetalert2';
+import HTMLLogo from "../../assets/HTML.png";
+import CSSLogo from "../../assets/CSS.jpg";
+import JavaScriptLogo from "../../assets/JavaScript-logo.png";
+import SASSLogo from "../../assets/SASS.png";
+import GITLogo from "../../assets/GIT.png";
+import ReactLogo from "../../assets/React.png";
 
 const Skills = () => {
   const [activeButton, setActiveButton] = useState('');
@@ -37,32 +43,32 @@ const Skills = () => {
       <ul>
         <li>
           <button id='htmlButton' onClick={() => handleButtonClick('HTML')}>
-            HTML
+            <img src={HTMLLogo} alt="Logo HTML" />
           </button>
         </li>
         <li>
           <button id='cssButton' onClick={() => handleButtonClick('CSS')}>
-            CSS
+            <img src={CSSLogo} alt="" />
           </button>
         </li>
         <li>
           <button id='sassButton' onClick={() => handleButtonClick('SASS')}>
-            SASS
+            <img src={SASSLogo} alt="" />
           </button>
         </li>
         <li>
           <button id='javascriptButton' onClick={() => handleButtonClick('JavaScript')}>
-            JavaScript
+            <img src={JavaScriptLogo} alt="" />
           </button>
         </li>
         <li>
           <button id='reactButton' onClick={() => handleButtonClick('React')}>
-            React
+            <img src={ReactLogo} alt="" />
           </button>
         </li>
         <li>
           <button id='gitButton' onClick={() => handleButtonClick('GIT')}>
-            GIT
+            <img src={GITLogo} alt="" />
           </button>
         </li>
       </ul>

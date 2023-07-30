@@ -124,6 +124,38 @@ header nav ul li img {
   font-size: 1.3rem;
 }
 
+.projectsDisplay {
+  width: 80vw;
+  margin: auto;
+}
+.projectsDisplay h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 7px;
+}
+.projectsDisplay ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  list-style-type: none;
+}
+.projectsDisplay ul li {
+  margin: 17px;
+  padding: 3px;
+  justify-content: center;
+  text-align: center;
+}
+.projectsDisplay ul li:hover {
+  transform: scale(1.01);
+}
+.projectsDisplay ul li a {
+  text-decoration: underline solid 1px;
+  border: none;
+  background-color: #d5b895;
+  font-size: 1.3rem;
+  color: #000000;
+}
+
 footer {
   background-color: #6b6c65;
 }
