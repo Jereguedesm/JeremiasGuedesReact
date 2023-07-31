@@ -21,7 +21,7 @@ const Skills = () => {
     CSS: 'CSS es un lenguaje de hojas de estilo que se utiliza para dar estilo y diseño a una página web, sería algo así como la "piel".',
     SASS: 'SASS es un preprocesador de CSS que ofrece características adicionales y una sintaxis más poderosa, maquillaje.',
     JavaScript: 'JavaScript es un lenguaje de programación que se utiliza para agregar interactividad a una página web, es lo que la hace funcionar, como los órganos o músculos.',
-    React: 'React es una biblioteca de JavaScript utilizada para construir interfaces de usuario interactivas y reutilizables; es como trabajar por partes en lugar de capas (cabeza, manos, etc...).',
+    React: 'React JS es una biblioteca de JavaScript utilizada para construir interfaces de usuario interactivas y reutilizables; es como trabajar por partes en lugar de capas (cabeza, manos, etc...).',
     GIT: 'GIT es un sistema de control de versiones que permite rastrear cambios en el código fuente y colaborar en proyectos, osea, para cuando rompés algo y querés volver atrás.',
   };
 
@@ -38,8 +38,12 @@ const Skills = () => {
   }, [activeButton, technologyInfo]);
 
   return (
+    <div>
     <div className='skillsDisplay'>
+      <div>
       <h1>¿Qué tecnologías domino?</h1>
+      <h3>(Cliquear)</h3>
+      </div>
       <ul>
         <li>
           <button id='htmlButton' onClick={() => handleButtonClick('HTML')}>
@@ -72,6 +76,7 @@ const Skills = () => {
           </button>
         </li>
       </ul>
+    </div>
     </div>
   );
 };

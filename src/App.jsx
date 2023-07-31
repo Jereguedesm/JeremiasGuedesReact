@@ -6,6 +6,7 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import AboutPage from './components/AboutPage/AboutPage'
 import Skills from './components/Skills/Skills'
 import MyProjects from './components/MyProjects/MyProjects'
+import ContactPage from './components/ContactPage/ContactPage';
 
 //pages parts
 import Header from './components/Header/Header'
@@ -26,7 +27,9 @@ const App = () => {
           <Route path='/' element={<AboutPage/>}/>
           <Route path='/wcid' element={<Skills/>}/>
           <Route path='/projects' element={<MyProjects/>}/>
+          <Route path='/contact' element={<ContactPage/>}/>
           <Route path='*' element={<ErrorPage/>}/>
+          
         </Routes>
       </Router>
     </>

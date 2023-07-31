@@ -1,6 +1,9 @@
 body{
     background-color: $beige3;
     font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
     font-size: 62.5%;
     height: 100%;
     width: 100vw;

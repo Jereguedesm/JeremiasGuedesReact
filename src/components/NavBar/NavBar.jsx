@@ -1,12 +1,16 @@
 import React from 'react'
 import { NavLink, useLocation } from 'react-router-dom'
+import ProfilePic from "../../assets/fotoDNI.jpeg"
 
 //pages
 import AboutPage from '../AboutPage/AboutPage'
 import Skills from '../Skills/Skills'
 import MyProjects from '../MyProjects/MyProjects'
+import Languages from '../microComponents/Languages/Languages'
+
 
 //micro components
+
 //import DarkMode from '../microComponents/DarkMode/DarkMode'
 
 const NavBar = () => {
@@ -15,7 +19,9 @@ const NavBar = () => {
     <div>
         <nav>
             <ul>
-                <li><img src="" alt="" /></li>
+            <button id='profilePic' onClick={() => expandPhoto()}>
+                <img src={ProfilePic} alt="" className='profilePic'/>
+            </button>
                 <li>
                 <NavLink to="/" className={`a ${location.pathname === '/' ? 'activeLink' : ''}`}>
                 About me
@@ -31,11 +37,13 @@ const NavBar = () => {
                 My projects
             </NavLink>
             </li>
-            <li className='a'>
-                <NavLink className='a'>Contact</NavLink>
+            <li>
+            <NavLink to="/contact" className={`a ${location.pathname === '/contact' ? 'activeLink' : ''}`}>
+                Contact
+            </NavLink>
             </li>
             <li className='a'>
-                <NavLink className='a'>Language</NavLink>
+                <Languages/>
             </li>
             </ul>
         </nav>

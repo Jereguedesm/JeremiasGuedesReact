@@ -12,9 +12,17 @@ header{
             flex-direction: row;
             justify-content: space-evenly;
             align-items: center;
+            button{
+                background-color: $beige2;
+                border: none;
+                .profilePic{
+                    height: 150px;
+                    width: auto;
+                }
+            }
             li{
                 text-decoration: none;
-                font-size: 1.3rem;
+                font-size: 1.4rem;
                 color: #ffffff;
                 &:hover{
                     transform: scale(1.05);
@@ -22,7 +30,7 @@ header{
                 .a{
                     text-decoration: none;
                     color: #ffffff;
-                    font-weight: 350;
+                    font-weight: 360;
                     padding: 3px;
                     &:hover{
                         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
@@ -36,6 +44,20 @@ header{
                 img{
                     height: 150px;
                     width: 150px;
+                }
+                div{
+                .Languages{
+                    text-decoration: none;
+                    color: #ffffff;
+                    font-weight: 360;
+                    padding: 3px;
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 360;
+                    &:hover{
+                        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                        border-radius: 7px;
+                    }
+                }
                 }
             }
         }
