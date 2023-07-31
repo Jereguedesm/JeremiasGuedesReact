@@ -6,6 +6,7 @@ import JavaScriptLogo from "../../assets/JavaScript-logo.png";
 import SASSLogo from "../../assets/SASS.png";
 import GITLogo from "../../assets/GIT.png";
 import ReactLogo from "../../assets/React.png";
+import CSSLogo2 from "../../assets/CSS3-2.svg"
 
 const Skills = () => {
   const [activeButton, setActiveButton] = useState('');
@@ -52,7 +53,7 @@ const Skills = () => {
         </li>
         <li>
           <button id='cssButton' onClick={() => handleButtonClick('CSS')}>
-            <img src={CSSLogo} alt="" />
+            <img src={CSSLogo2} alt="" />
           </button>
         </li>
         <li>

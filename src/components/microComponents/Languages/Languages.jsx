@@ -1,4 +1,4 @@
-import * as React from 'react';
+/*import * as React from 'react';
 import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
@@ -40,4 +40,39 @@ const Languages = () => {
     </div>
   );
 }
+export default Languages*/
+
+import * as React from 'react';
+import Box from '@mui/material/Box';
+import InputLabel from '@mui/material/InputLabel';
+import MenuItem from '@mui/material/MenuItem';
+import FormControl from '@mui/material/FormControl';
+import Select from '@mui/material/Select';
+
+const Languages = () => {
+  const [Language, setLan] = React.useState('');
+
+  const handleChange = (event) => {
+    setLan(event.target.value);
+  };
+
+  return (
+    <Box sx={{ minWidth: 120 }}>
+      <FormControl fullWidth>
+        <InputLabel id="demo-simple-select-label">Idioma</InputLabel>
+        <Select
+          labelId="demo-simple-select-label"
+          id="demo-simple-select"
+          value={Language}
+          label="Language"
+          onChange={handleChange}
+        >
+          <MenuItem value={0}>Español</MenuItem>
+          <MenuItem value={1}>English</MenuItem>
+        </Select>
+      </FormControl>
+    </Box>
+  );
+}
+
 export default Languages

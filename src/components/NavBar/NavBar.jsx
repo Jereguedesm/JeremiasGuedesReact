@@ -24,22 +24,22 @@ const NavBar = () => {
             </button>
                 <li>
                 <NavLink to="/" className={`a ${location.pathname === '/' ? 'activeLink' : ''}`}>
-                About me
+                Acerca de mí
             </NavLink>
                 </li>
                 <li>
             <NavLink to="/wcid" className={`a ${location.pathname === '/wcid' ? 'activeLink' : ''}`}>
-                What can I do?
+                ¿Qué puedo hacer?
             </NavLink>
             </li>
             <li>
             <NavLink to="/projects" className={`a ${location.pathname === '/projects' ? 'activeLink' : ''}`}>
-                My projects
+                Mis proyectos
             </NavLink>
             </li>
             <li>
             <NavLink to="/contact" className={`a ${location.pathname === '/contact' ? 'activeLink' : ''}`}>
-                Contact
+                Contacto
             </NavLink>
             </li>
             <li className='a'>
