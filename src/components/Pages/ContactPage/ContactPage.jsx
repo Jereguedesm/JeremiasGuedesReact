@@ -2,11 +2,12 @@ import React from 'react'
 import { Link } from "react-router-dom"
 
 //images
-import WhatsappLogo from "../../assets/WhatsApp.svg.png"
-import InstagramLogo from "../../assets/Instagram_logo_2016.svg.webp"
-import LinkedInLogo from "../../assets/LinkedIn_icon.svg.png"
-import GmailLogo from "../../assets/Gmail_icon_(2020).svg.webp"
-import GitHubLogo from "../../assets/GitHub-logo.wine.svg"
+//import WhatsappLogo from "../../../assets/Wh"
+import WhatsappLogo from "../../../assets/WhatsApp.svg.png"
+import InstagramLogo from "../../../assets/Instagram_logo_2016.svg.webp"
+import LinkedInLogo from "../../../assets/LinkedIn_icon.svg.png"
+import GmailLogo from "../../../assets/Gmail_icon_(2020).svg.webp"
+import GitHubLogo from "../../../assets/GitHub-logo.wine.svg"
 
 const ContactPage = () => {
   return (

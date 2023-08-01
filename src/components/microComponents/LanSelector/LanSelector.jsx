@@ -49,7 +49,7 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 
-const Languages = () => {
+const LanSelector = () => {
   const [Language, setLan] = React.useState('');
 
   const handleChange = (event) => {
@@ -75,4 +75,4 @@ const Languages = () => {
   );
 }
 
-export default Languages
+export default LanSelector

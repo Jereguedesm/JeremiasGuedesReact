@@ -1,12 +1,12 @@
 import React from 'react'
 import { NavLink, useLocation } from 'react-router-dom'
-import ProfilePic from "../../assets/fotoDNI.jpeg"
+import ProfilePic from "../../../assets/fotoDNI.jpeg"
 
 //pages
-import AboutPage from '../AboutPage/AboutPage'
-import Skills from '../Skills/Skills'
-import MyProjects from '../MyProjects/MyProjects'
-import Languages from '../microComponents/Languages/Languages'
+//import AboutPage from '../Pages/AboutPage/AboutPage'
+//import Skills from '../Pages/Skills/Skills'
+//import MyProjects from '../Pages/MyProjects/MyProjects'
+import LanSelector from "../LanSelector/LanSelector"
 
 
 //micro components
@@ -43,7 +43,7 @@ const NavBar = () => {
             </NavLink>
             </li>
             <li className='a'>
-                <Languages/>
+                <LanSelector/>
             </li>
             </ul>
         </nav>

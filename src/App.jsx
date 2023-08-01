@@ -3,15 +3,20 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 
 //pages
-import AboutPage from './components/AboutPage/AboutPage'
-import Skills from './components/Skills/Skills'
-import MyProjects from './components/MyProjects/MyProjects'
-import ContactPage from './components/ContactPage/ContactPage';
+
+import AboutPage from './components/Pages/AboutPage/AboutPage'
+import Skills from './components/Pages/Skills/Skills'
+import MyProjects from './components/Pages/MyProjects/MyProjects'
+import ContactPage from './components/Pages/ContactPage/ContactPage';
+import ErrorPage from "./components/Pages/ErrorPage/ErrorPage"
 
 //pages parts
-import Header from './components/Header/Header'
-import Footer from './components/Footer/Footer'
-import ErrorPage from './components/ErrorPage/ErrorPage';
+import Header from "./components/Structure/Header/Header"
+import Footer from "./components/Structure/Footer/Footer"
+//import Header from "./components/Structure/Header"
+//import Header from './components/Header/Header'
+//import Footer from './components/Structure/Footer/Footer'
+//import ErrorPage from './components/Pages/ErrorPage/ErrorPage';
 
 
 // <Main/><Header/><Footer/>

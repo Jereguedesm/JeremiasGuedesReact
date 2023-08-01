@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import Swal from 'sweetalert2';
-import HTMLLogo from "../../assets/HTML.png";
-import CSSLogo from "../../assets/CSS.jpg";
-import JavaScriptLogo from "../../assets/JavaScript-logo.png";
-import SASSLogo from "../../assets/SASS.png";
-import GITLogo from "../../assets/GIT.png";
-import ReactLogo from "../../assets/React.png";
-import CSSLogo2 from "../../assets/CSS3-2.svg"
+import HTMLLogo from "../../../assets/HTML.png";
+//import CSSLogo from "../../assets/CSS.jpg";
+import JavaScriptLogo from "../../../assets/JavaScript-logo.png";
+import SASSLogo from "../../../assets/SASS.png";
+import GITLogo from "../../../assets/GIT.png";
+import ReactLogo from "../../../assets/React.png";
+import CSSLogo2 from "../../../assets/CSS3-2.svg"
 
 const Skills = () => {
   const [activeButton, setActiveButton] = useState('');
