@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import Swal from 'sweetalert2';
+import { useTranslation } from 'react-i18next'
+
+
+
 import HTMLLogo from "../../../assets/HTML.png";
-//import CSSLogo from "../../assets/CSS.jpg";
 import JavaScriptLogo from "../../../assets/JavaScript-logo.png";
 import SASSLogo from "../../../assets/SASS.png";
 import GITLogo from "../../../assets/GIT.png";
@@ -10,6 +13,8 @@ import CSSLogo2 from "../../../assets/CSS3-2.svg"
 
 const Skills = () => {
   const [activeButton, setActiveButton] = useState('');
+
+  const [t] = useTranslation("global")
 
   // Manejador de eventos para cada botón
   const handleButtonClick = (buttonText) => {
@@ -42,8 +47,8 @@ const Skills = () => {
     <div>
     <div className='skillsDisplay'>
       <div>
-      <h1>¿Qué tecnologías domino?</h1>
-      <h3>(Cliquear)</h3>
+      <h1>{t('main.wcidPage.h1')}</h1>
+      <h3>{t('main.wcidPage.h3')}</h3>
       </div>
       <ul>
         <li>

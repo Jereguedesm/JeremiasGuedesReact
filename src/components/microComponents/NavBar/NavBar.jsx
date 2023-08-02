@@ -3,18 +3,17 @@ import { NavLink, useLocation } from 'react-router-dom'
 import ProfilePic from "../../../assets/fotoDNI.jpeg"
 
 //pages
-//import AboutPage from '../Pages/AboutPage/AboutPage'
-//import Skills from '../Pages/Skills/Skills'
-//import MyProjects from '../Pages/MyProjects/MyProjects'
 import LanSelector from "../LanSelector/LanSelector"
+import { useTranslation } from 'react-i18next'
 
 
-//micro components
 
-//import DarkMode from '../microComponents/DarkMode/DarkMode'
 
 const NavBar = () => {
     const location = useLocation();
+    const [t] = useTranslation("global")
+
+
     return (
     <div>
         <nav>
@@ -24,22 +23,22 @@ const NavBar = () => {
             </button>
                 <li>
                 <NavLink to="/" className={`a ${location.pathname === '/' ? 'activeLink' : ''}`}>
-                Acerca de mí
+                {t("header.nav.aboutMe")}
             </NavLink>
                 </li>
                 <li>
             <NavLink to="/wcid" className={`a ${location.pathname === '/wcid' ? 'activeLink' : ''}`}>
-                ¿Qué puedo hacer?
+            {t("header.nav.wcid")}
             </NavLink>
             </li>
             <li>
             <NavLink to="/projects" className={`a ${location.pathname === '/projects' ? 'activeLink' : ''}`}>
-                Mis proyectos
+            {t("header.nav.projects")}
             </NavLink>
             </li>
             <li>
             <NavLink to="/contact" className={`a ${location.pathname === '/contact' ? 'activeLink' : ''}`}>
-                Contacto
+            {t("header.nav.contact")}
             </NavLink>
             </li>
             <li className='a'>

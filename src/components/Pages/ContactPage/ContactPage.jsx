@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from "react-router-dom"
+import { useTranslation } from 'react-i18next'
 
 //images
-//import WhatsappLogo from "../../../assets/Wh"
 import WhatsappLogo from "../../../assets/WhatsApp.svg.png"
 import InstagramLogo from "../../../assets/Instagram_logo_2016.svg.webp"
 import LinkedInLogo from "../../../assets/LinkedIn_icon.svg.png"
@@ -10,11 +10,14 @@ import GmailLogo from "../../../assets/Gmail_icon_(2020).svg.webp"
 import GitHubLogo from "../../../assets/GitHub-logo.wine.svg"
 
 const ContactPage = () => {
+
+  const [t] = useTranslation("global")
+
   return (
     <div className='contactPage'>
         <div>
-        <h1>¿Cómo te podés poner en contacto conmigo?</h1>
-        <h3>Mis redes sociales son las siguientes, podés contactarme en cualquier momento:</h3>
+        <h1>{t('main.contactPage.h1')}</h1>
+        <h3>{t('main.contactPage.h3')}</h3>
         </div>
         <div>
           <ul>

@@ -13,13 +13,7 @@ import ErrorPage from "./components/Pages/ErrorPage/ErrorPage"
 //pages parts
 import Header from "./components/Structure/Header/Header"
 import Footer from "./components/Structure/Footer/Footer"
-//import Header from "./components/Structure/Header"
-//import Header from './components/Header/Header'
-//import Footer from './components/Structure/Footer/Footer'
-//import ErrorPage from './components/Pages/ErrorPage/ErrorPage';
 
-
-// <Main/><Header/><Footer/>
 
 const App = () => {
 
