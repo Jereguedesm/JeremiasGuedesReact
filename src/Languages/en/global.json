@@ -41,5 +41,7 @@
             "h3": "You can contact me anytime through my social media accounts:"
         }
     },
-    "footer": {}
+    "footer": {
+        "copy": "2023 Jeremías Nicolás Guedes Mendes. All rights reserved."
+    }    
 }

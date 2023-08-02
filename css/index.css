@@ -196,8 +196,46 @@ header nav ul li div .Languages:hover {
   color: #000000;
 }
 
-footer {
+.contactPage div h1, .contactPage div h3 {
+  padding: 7px;
+  margin: 7px auto;
+  text-align: center;
+}
+.contactPage div h1 {
+  font-size: 1.8rem;
+}
+.contactPage div h3 {
+  font-size: 1rem;
+}
+.contactPage div ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+  align-items: center;
+}
+.contactPage div ul li a img {
+  width: 150px;
+  height: 150px;
+  padding: 3px;
+  margin: 50px 7px;
+}
+.contactPage div ul li a img:hover {
+  transform: scale(1.01);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  border-radius: 7px;
+}
+
+.foo {
   background-color: #6b6c65;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+}
+.foo div p {
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 3px;
 }
 
 :root {

@@ -21,7 +21,7 @@ const App = () => {
     <>
       <Router>
       <Header></Header>
-      <Footer></Footer>
+      
         <Routes>
           <Route path='/' element={<AboutPage/>}/>
           <Route path='/wcid' element={<Skills/>}/>
@@ -30,6 +30,8 @@ const App = () => {
           <Route path='*' element={<ErrorPage/>}/>
           
         </Routes>
+
+        <Footer></Footer>
       </Router>
     </>
   )

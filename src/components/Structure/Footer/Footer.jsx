@@ -1,9 +1,11 @@
 import React from 'react'
+import Copyright from '../../microComponents/Copyright/Copyright'
+
 
 const Footer = () => {
   return (
-    <div>
-        
+    <div className='foo'>
+      <Copyright/>
     </div>
   )
 }

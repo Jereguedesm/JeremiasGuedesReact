@@ -1,3 +1,13 @@
-footer{
+.foo{
     background-color: $background-footer;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+        div{
+            p{
+                font-size: 1.1rem;
+                text-align: center;
+                padding: 3px;
+            }
+        }
 }
