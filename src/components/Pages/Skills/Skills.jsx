@@ -23,12 +23,12 @@ const Skills = () => {
 
   // Información sobre cada tecnología
   const technologyInfo = {
-    HTML: 'HTML es un lenguaje de marcado de hipertexto utilizado para estructurar el contenido de una página web, en otras palabras, es "el esqueleto" de una página.',
-    CSS: 'CSS es un lenguaje de hojas de estilo que se utiliza para dar estilo y diseño a una página web, sería algo así como la "piel".',
-    SASS: 'SASS es un preprocesador de CSS que ofrece características adicionales y una sintaxis más poderosa, maquillaje.',
-    JavaScript: 'JavaScript es un lenguaje de programación que se utiliza para agregar interactividad a una página web, es lo que la hace funcionar, como los órganos o músculos.',
-    React: 'React JS es una biblioteca de JavaScript utilizada para construir interfaces de usuario interactivas y reutilizables; es como trabajar por partes en lugar de capas (cabeza, manos, etc...).',
-    GIT: 'GIT es un sistema de control de versiones que permite rastrear cambios en el código fuente y colaborar en proyectos, osea, para cuando rompés algo y querés volver atrás.',
+    HTML: t('main.wcidPage.techInfo.HTML'),
+    CSS: t('main.wcidPage.techInfo.CSS'),
+    SASS: t('main.wcidPage.techInfo.SASS'),
+    JavaScript: t('main.wcidPage.techInfo.JavaScript'),
+    React: t('main.wcidPage.techInfo.React'),
+    GIT: t('main.wcidPage.techInfo.GIT'),
   };
 
   // Efecto secundario para mostrar el alert cuando cambia el estado

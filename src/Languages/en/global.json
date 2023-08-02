@@ -18,7 +18,16 @@
         },
         "wcidPage": {
             "h1": "What Technologies Do I Master?",
-            "h3": "(Click on the icons)"
+            "h3": "(Click on the icons)",
+            "techInfo": {
+                "HTML": "HTML is a hypertext markup language used to structure the content of a web page, in other words, it's the \"skeleton\" of a page.",
+                "CSS": "CSS is a stylesheet language used to give style and design to a web page, it's like the \"skin\" of a page.",
+                "SASS": "SASS is a CSS preprocessor that offers additional features and a more powerful syntax, like makeup.",
+                "JavaScript": "JavaScript is a programming language used to add interactivity to a web page, it's what makes it work, like organs or muscles.",
+                "React": "React JS is a JavaScript library used to build interactive and reusable user interfaces; it's like working with parts instead of layers (head, hands, etc...).",
+                "GIT": "GIT is a version control system that allows tracking changes in the source code and collaborating on projects, so you can go back when something breaks."
+            }
+            
         },
         "projectsPage": {
             "h1": "Here's a list of the projects/jobs I've worked on:",
