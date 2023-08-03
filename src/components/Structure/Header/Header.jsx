@@ -3,8 +3,7 @@ import NavBar from "../../microComponents/NavBar/NavBar"
 //import { useTranslation } from 'react-i18next'
 
 
-//pages
-
+import "./Header.css"
 
 const Header = () => {
   

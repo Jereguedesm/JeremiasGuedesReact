@@ -1,0 +1,11 @@
+.foo{
+    background-color: var(--background-footer);
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
+.foo div p{
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 3px;
+}

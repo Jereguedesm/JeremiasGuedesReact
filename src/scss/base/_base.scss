@@ -1,5 +1,24 @@
+/*
+
+$fondo-header: #c19770;
+    $underline-nav: #e8dcb5;
+    $shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    $background-footer: #6b6c65;
+    $background-body: #d5b895;
+    $primary-tipography: #ffffff;
+    $secondary-tipography: #000000;
+
+    [data-theme="dark"] {
+        $fondo-header: #015958;
+        $underline-nav: #0fc2c0;
+        $background-footer: #454546;
+        $background-body: #0caba8;
+    }
+
+
+
 body{
-    background-color: $beige3;
+    background-color: $background-body;
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

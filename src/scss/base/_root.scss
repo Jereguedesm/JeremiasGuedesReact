@@ -1,0 +1,42 @@
+/*$light-mode: (
+  fondo-header: #c19770,
+  underline-nav: #e8dcb5,
+  shadow: 0 4px 12px rgba(0, 0, 0, 0.3),
+  background-footer: #6b6c65,
+  background-body: #d5b895,
+  primary-tipography: #ffffff,
+  secondary-tipography: #000000
+);
+
+$dark-mode: (
+  fondo-header: #015958,
+  underline-nav: #0fc2c0,
+  shadow: 0 4px 12px rgba(0, 0, 0, 0.3),
+  background-footer: #454546,
+  background-body: #0caba8,
+  primary-tipography: #ffffff,
+  secondary-tipography: #000000
+);
+
+
+:root {
+  // Usamos la función `map-get` para obtener los valores correspondientes al tema seleccionado
+  --fondo-header: map-get($light-mode, fondo-header);
+  --underline-nav: map-get($light-mode, underline-nav);
+  --shadow: map-get($light-mode, shadow);
+  --background-footer: map-get($light-mode, background-footer);
+  --background-body: map-get($light-mode, background-body);
+  --primary-tipography: map-get($light-mode, primary-tipography);
+  --secondary-tipography: map-get($light-mode, secondary-tipography);
+}
+
+[data-theme="dark"]  {
+  // Usamos la función `map-get` para obtener los valores correspondientes al tema seleccionado
+  --fondo-header: map-get($dark-mode, fondo-header);
+  --underline-nav: map-get($dark-mode, underline-nav);
+  --shadow: map-get($dark-mode, shadow);
+  --background-footer: map-get($dark-mode, background-footer);
+  --background-body: map-get($dark-mode, background-body);
+  --primary-tipography: map-get($dark-mode, primary-tipography);
+  --secondary-tipography: map-get($dark-mode, secondary-tipography);
+}

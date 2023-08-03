@@ -1,37 +1,52 @@
 /*abstracts*/
-@import "./scss/abstracts/variables";
-@import "./scss/abstracts/mixins";
+//@import "./scss/abstracts/variables";
+//@use "./scss/abstracts/mixins";
 
 /*base*/
-@import "./scss/base/base";
+/*base*/
+@import "./scss/abstracts/variables"; /* Asegúrate de que la ruta es correcta */
+@import "./scss/base/root";
 @import "./scss/base/resets";
+@import "./scss/base/base";
+
 @import "./scss/base/mediaQuerries";
+
 
 /*layout*/
 @import "./scss/layout/header";
 @import "./scss/layout/main";
 @import "./scss/layout/footer";
 
+/*
 :root {
-  font-family: 'Roboto', sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
 
+    $fondo-header: #c19770;
+    $underline-nav: #e8dcb5;
+    $shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    $background-footer: #6b6c65;
+    $background-body: #d5b895;
+    $primary-tipography: #ffffff;
+    $secondary-tipography: #000000;
 
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+    [data-theme="dark"] & {
+        $fondo-header: #015958;
+        $underline-nav: #0fc2c0;
+        $background-footer: #454546;
+        $background-body: #0caba8;
+    }
 }
+*/
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
+
+
 
 

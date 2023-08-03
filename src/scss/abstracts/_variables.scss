@@ -1,5 +1,25 @@
+/*
 
-$body-color: "#0caba8";
+
+//Light mode
+$fondo-header: #c19770;
+$underline-nav: #e8dcb5;
+$shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+$background-footer: #6b6c65;
+$background-body: #d5b895;
+$primary-tipography: #ffffff;
+$secondary-tipography: #000000;
+
+
+//Dark mode
+$fondo-header: #015958;
+$underline-nav: #0fc2c0;
+$shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+$background-footer: #454546;
+$background-body: #0caba8;
+$primary-tipography: #ffffff;
+$secondary-tipography: #000000;
+
 
 //paleta de colores beige
 $beige1: #a67a5b;
@@ -30,6 +50,6 @@ $gris-celeste4: #5dc1b9;
 $gris-celeste5: #8ae0db;
 
 //tonos genéricos
-$background-body: #fdf4eb;
-$background-header: #e7cfb0;
-$background-footer: #6b6c65;
+//$background-body: #fdf4eb;
+//$background-header: #e7cfb0;
+//$background-footer: #6b6c65;

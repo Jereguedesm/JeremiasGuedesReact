@@ -1,12 +1,15 @@
 import React from 'react'
 import { NavLink, useLocation } from 'react-router-dom'
 import ProfilePic from "../../../assets/fotoDNI.jpeg"
+import "./NavBar.css"
 
 //pages
 import LanSelector from "../LanSelector/LanSelector"
 import { useTranslation } from 'react-i18next'
 
+import DarkMode from '../DarkMode/DarkMode'
 
+import CustomizedSwitches from '../provisory/provisory'
 
 
 const NavBar = () => {
@@ -18,9 +21,7 @@ const NavBar = () => {
     <div>
         <nav>
             <ul>
-            <button id='profilePic' onClick={() => expandPhoto()}>
                 <img src={ProfilePic} alt="" className='profilePic'/>
-            </button>
                 <li>
                 <NavLink to="/" className={`a ${location.pathname === '/' ? 'activeLink' : ''}`}>
                 {t("header.nav.aboutMe")}
@@ -43,6 +44,9 @@ const NavBar = () => {
             </li>
             <li className='a'>
                 <LanSelector/>
+            </li>
+            <li>
+                <CustomizedSwitches/>
             </li>
             </ul>
         </nav>

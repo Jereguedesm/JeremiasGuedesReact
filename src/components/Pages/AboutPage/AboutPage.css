@@ -1,0 +1,29 @@
+.main {
+    max-width: 100vw;
+  }
+  
+  .main div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+  }
+  
+  .main div p {
+    margin: 10px auto;
+    font-size: 1.1rem;
+    width: 80vw;
+  }
+  
+  .main div .title {
+    font-size: 1.3rem;
+    margin: 10px auto;
+  }
+  
+  .main div .text {
+    font-size: 1rem;
+    text-align: justify;
+    width: 70%;
+    margin: auto;
+  }
+  

@@ -1,5 +1,5 @@
-header{
-    background-color: $beige2;
+/*header{
+    background-color: $fondo-header;
     height: 150px;
     width: 100vw;
 
@@ -12,34 +12,31 @@ header{
             flex-direction: row;
             justify-content: space-evenly;
             align-items: center;
-            button{
-                background-color: $beige2;
-                border: none;
+            background-color: $fondo-header;
+            border: none;
                 .profilePic{
                     height: 150px;
                     width: auto;
                 }
-            }
             li{
                 text-decoration: none;
                 font-size: 1.4rem;
-                color: #ffffff;
                 &:hover{
                     transform: scale(1.05);
                 }
                 .a{
                     text-decoration: none;
-                    color: #ffffff;
+                    color: $primary-tipography;
                     font-weight: 360;
                     padding: 3px;
                     &:hover{
-                        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                        box-shadow: $shadow;
                         border-radius: 7px;
                         
                     }
                 }
                 .activeLink{
-                    text-decoration: underline 2px solid $beige5;
+                    text-decoration: underline 2px solid $underline-nav;
                 }
                 img{
                     height: 150px;
@@ -47,15 +44,8 @@ header{
                 }
                 div{
                 .Languages{
-                    text-decoration: none;
-                    color: #ffffff;
-                    font-weight: 360;
-                    padding: 3px;
-                    font-family: 'Roboto', sans-serif;
-                    font-weight: 360;
                     &:hover{
-                        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-                        border-radius: 7px;
+                        box-shadow: $shadow;
                     }
                 }
                 }
@@ -65,3 +55,4 @@ header{
         }
     }
 }
+*/
