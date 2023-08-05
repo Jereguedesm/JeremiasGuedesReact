@@ -91,6 +91,7 @@ const LanSelector = () => {
         >
           <MenuItem value="es">Español</MenuItem>
           <MenuItem value="en">English</MenuItem>
+          <MenuItem value="de">Deustch</MenuItem>
         </Select>
       </FormControl>
     </Box>

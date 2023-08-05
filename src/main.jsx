@@ -6,6 +6,7 @@ import './index.css'
 
 import global_en from "./Languages/en/global.json"
 import global_es from "./Languages/es/global.json"
+import global_de from "./Languages/de/global.json"
 import i18next from 'i18next'
 import { I18nextProvider } from 'react-i18next'
 
@@ -18,6 +19,9 @@ i18next.init({
     },
     en:{
       global: global_en
+    },
+    de:{
+      global: global_de
     },
   },
 });
