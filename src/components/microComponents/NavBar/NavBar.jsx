@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState} from 'react'
 import { NavLink, useLocation } from 'react-router-dom'
 import ProfilePic from "../../../assets/fotoDNI.jpeg"
 import "./NavBar.css"
@@ -7,15 +7,18 @@ import "./NavBar.css"
 import LanSelector from "../LanSelector/LanSelector"
 import { useTranslation } from 'react-i18next'
 
-import DarkMode from '../DarkMode/DarkMode'
+
 
 import CustomizedSwitches from '../provisory/provisory'
+import DeployableMenu from '../DeployableMenu/DeployableMenu'
 
 
 const NavBar = () => {
     const location = useLocation();
     const [t] = useTranslation("global")
 
+
+    
 
     return (
     <div>
@@ -48,6 +51,9 @@ const NavBar = () => {
             <li>
                 <CustomizedSwitches/>
             </li>
+            <li>
+            <DeployableMenu/>
+            </li>
             </ul>
         </nav>
     </div>
@@ -55,3 +61,7 @@ const NavBar = () => {
 }
 
 export default NavBar
+
+
+
+
